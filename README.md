@@ -6,11 +6,11 @@ We use the following methods for the analysis:
 -compile, train and evaluate the model,
 -optimize the model.
 # Results
-Data Preprocessing
+#Data Preprocessing
 - The EIN and name where dropped from data input
 = Is successful to determine whether charity was recieved 
 - Added colums Application types, Affiliation, classification, use_case, organization, status, income amt, special consideation, and ask amt. 
-Compiling and Training
+#Compiling and Training
 - This deep-learning neural network model is made of two hidden layers with 80 and 20 neurons.
 - The input data has 43 features and 25,724 samples.
 - The output layer is made of a unique neuron as it is a binary classification.
