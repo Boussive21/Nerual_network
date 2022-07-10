@@ -17,8 +17,8 @@ We use the following methods for the analysis:
 - The output layer is made of a unique neuron as it is a binary classification.
 - To speed up the process we used Relu for activation, then the second hidden layer we continued to use Relu, as for output we used Linear. 
 - The Models accuracy was 72 percent which is less than 75 pecercent. 
-- 
-- 
+- To increase performance I tired to change the way Ask amnt was bucketed 
+- We also changed begining activation to tanh 
 # Summary 
-The deep learning neural network model did not reach the target of 75% accuracy. Considering that this target level is pretty average we could say that the model is not outperforming.
-Since we are in a binary classification situation, we could use a supervised machine learning model such as the Random Forest Classifier to combine a multitude of decision trees to generate a classified output and evaluate its performance against our deep learning model.
+The unfortuantly the deep learning neural network model did not reach the target of 75% accuracy. It is safe to say put model are not performing because of the fact we considering we couldnt hit 75 percent any of the optomizers.
+We could use instead of a neural network is a supervised machine learning model such as the Random Forest Classifier to combine a multitude of decision trees to generate a classified output and evaluate its performance against our deep learning model. This may work better because we are looking for a specfic result. 
